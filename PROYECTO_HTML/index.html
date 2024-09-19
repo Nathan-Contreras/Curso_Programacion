@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="8-UTF">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curriculum Vitae</title>
+        <link rel="icon" href="cv1.jpg" type="jpg">
+
+        <style>
+            body {
+                background-color: #faf7c1;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            p {
+                font-size: medium;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif
+            }
+            header {
+                font-size: large;
+                text-align:left;
+                padding: 15px;
+                background-color: rgb(242, 179, 96);
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: auto;
+                width: 53.2%;
+            }
+            header h1{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 20px;
+                line-height: 10px;
+            }
+            header h2{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin-left: 20px;
+            }
+            .line{
+                border: 1px solid black;
+                margin: 10px 0; 
+            }
+            .content {
+                margin-top: 60px;
+            }
+            .navbar {
+                width: 100%;
+                background-color: #333;
+                overflow: auto;
+                padding: 10px 0;
+                position: fixed;
+                top: 0;
+            }
+            .navbar a {
+                float: left;
+                text-align: center;
+                padding: 12px;
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                font-size: 17px;
+                font-style: normal;
+            }
+            .navbar a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .container {
+                max-width: 1000px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #ffffff;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+    
+            .box {
+                display: flex;
+            }
+    
+            .box .left-box {
+                flex: 1;
+                padding: 10px;
+                margin-right: 10px;
+                background-color: #fcfcfc;
+                border: 1px #c8ec24;
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+            }
+            .box .right-box{
+                flex: 0,5;
+                padding: 10px;
+                background-color: #ffffff;
+                border: 1px #ffffff;
+                width: 60%;
+                text-align: center;
+                color: #000000;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+            }
+            iframe {
+                width: 100%;
+                height: 500px;
+            }
+            .section-container {
+                margin-bottom: 20px;
+            }
+            image{
+                width: 15px;
+                align-content: center;
+            }
+        
+        </style>
+    </head>
+<body>
+    <div class="navbar">
+        <a href="index.html">INICIO</a>
+        <a href="contact.html">CONTÁCTAME</a>
+    </div>
+    <div class="content"></div>
+    <header>
+        <h1>NATHAN CONTRERAS</h1>
+        <h2>Ingeniero Químico</h2>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box">
+
+                <!--CAJA IZQUIERDA-->
+                <div class="left-box">
+                    <img src="foto cv.png" width="100%">
+                    <div class="line"></div>
+                    <h3 style="text-align: center;">Habilidades Blandas</h3>
+                    <ul>
+                        <li>Liderazgo Competitivo</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Comunicación Asertiva</li>
+                    </ul>
+
+                    <div class="line"></div>
+                    <h3 style="text-align: center;">Contacto</h3>
+                    <img src="telefono2.gif" width="25px" id="cont_telefono">
+                    <label for="cont_telefono">+58 4247158666</label>
+                    <br>
+                    <img src="email.gif" width="25px" id="cont_email">
+                    <label for="cont_telefono"> Nathan.18.05.2002@gmail.com</label>
+                    <br>
+                    <img src="ubicacion.gif" width="25px" id="cont_ubicacion">
+                    <label for="cont_ubicacion"> Macaracuay, Caracas</label>
+                    <p></p>
+
+                    <div class="line"></div>
+                    <h3 style="text-align: center;">Habilidades</h3>
+                    <progress value="90" max="100";>70 %</progress> <label> Office</label>
+                    <img src="office.png" width="30px">
+                    <p></p>
+                    <progress value="80" max="100";>70 %</progress> <label>MATLAB</label>
+                    <img src="matlab.png" width="30px" >
+                    <p></p>
+                    <progress value="70" max="100";>70 %</progress> <label> Illustrator</label>
+                    <img src="illustrator.png" width="25px" >
+                    <p></p>
+                    <progress value="75" max="100";>80 %</progress> <label> Ingles</label>
+                    <img src="ingles.png" width="20px" >
+                    <p></p>
+                    <progress value="70" max="100";>70 %</progress> <label> AutoCAD</label>
+                    <img src="autocad.png" width="25px" >
+
+                </div>
+
+                <!--CAJA DERECHA-->
+                <div class="right-box">
+                    <h2>PRESENTACIÓN</h2>
+                    <p style="text-align: justify;" style="margin-left: 100px;">Soy estudiante de 8vo trimestre de ingeniería química. Busco adentrarme en el mundo labora como desarrollo personal y complementario en múltiples áreas.
+                        Tiendo a ser multidisciplinario y capaz de adaptarme en diferentes áreas. Me gusta innovar y explotar mi creatividad.</p>
+                    <div class="line"></div>
+
+                    <h2>EDUCACIÓN</h2>
+                    <ul style="text-align: left;">
+                        <li style="font-size: larger;">Bachiller en Ciencias</li>
+                        <h5>Cursado en 2014-2019</h5>
+                        <li style="font-size: larger;">Ingeniería Química</li>
+                        <h5>Cursando en la Universidad Metropolitana (2021-actualidad)</h5>
+                        <li style="font-size: larger;">Ingeniería en Sistemas</li>
+                        <h5>Cursando en la Universidad Metropolitana (2024-actualidad)</h5>
+                    </ul>
+                    <div class="line"></div>
+
+
+                    <h2>EDUCACIÓN COMPLEMENTARIA</h2>
+                    <ul style="text-align: left;">
+                        <li style="font-size: larger;">Mantenimiento en Hardward y Software</li>
+                        <h5>Cursado en 2019</h5>
+                        <li style="font-size: larger;">Diseño Asistido por Computador</li>
+                        <h5>Cursado en 2020</h5>
+                        <li style="font-size: larger;">Programacion en Java</li>
+                        <h5>Cursado en 2022</h5>
+                    </ul>
+
+                    <div class="line"></div>
+                    <h2>PROYECTOS LABORALES</h2>
+
+                    <ul style="text-align: left;">
+                        <li style="font-size: larger;">Proyecto IRFA UNIMET</li>
+                        <li style="font-size: larger;">Freelancer como diseñador gráfico</li>
+                    </ul>
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© TODOS LOS DERECHOS RESERVADOS</p>
+    </footer>
+</body>
+</html>
